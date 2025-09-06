@@ -1,0 +1,11 @@
+
+Lec - 2
+Package Installed
+1. live server
+2. live preview
+3. prettier code formatter
+
+
+Lec - 2.2
+
+4. Material icon them - for better folder structure
