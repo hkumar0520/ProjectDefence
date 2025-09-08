@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="">
+
+        <!-- name attribute is used to send data to the server
+        id attribute is used to connect label with input field using for attribute in label -->
+        <label for="name">Name:</label>
+        <input type="text" name="userName" id="name">
+
+        <br>
+        <label for="fname">Father Name:</label>
+        <input type="text" name="userFName" id="fname">
+
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" name="userAge" id="age">
+
+        <br>
+        <label for="pass">Password</label>
+        <input type="password" name="userPassword" id="pass">
+
+        <br>
+        <!-- if value attribute is not given then by default value is "on" to the server -->
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        
+        <label for="female">FeMale</label>
+        <input type="radio" name="gender" id="female" value="female">
+        
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other">
+
+
+        <br>
+        <label for="c++">C++</label>
+        <input type="checkbox" name="subject" id="c++" value = "c++">
+
+        <label for="java">java</label>
+        <input type="checkbox" name="subject" id="java" value="java">
+
+        <label for="python">python</label>
+        <input type="checkbox" name="subject" id="python" value="python">
+
+        <label for="javascript">javascript</label>
+        <input type="checkbox" name="subject" id="javascript" value="javascript">
+
+        <br>
+        <input type="submit">
+    </form>
+
+    <!-- http://127.0.0.1:3000/frontend/html/Lec 4/index.html?userName=asdf&userFName=asdf&userAge=12&userPassword=SAD
+
+    this info is sent to the server
+    userName=asdf&userFName=asdf&userAge=12&userPassword=SAD -->
+
+    <!-- http://127.0.0.1:3000/frontend/html/Lec 4/index.html?userName=asdf&userFName=asdf&userAge=12&userPassword=asdf&gender=on -->
+     
+
+    <!-- http://127.0.0.1:3000/frontend/html/Lec 4/index.html?userName=asdf&userFName=adf&userAge=12&userPassword=asdf&gender=male&subject=c%2B%2B&subject=java -->
+    
+</body>
+</html>
