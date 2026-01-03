@@ -1,0 +1,129 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application : Senior Web Developer</title>
+</head>
+<body>
+
+    <h1>Job Application: Senior Web Developer</h1>
+
+    <p>Thank you for your interest in joining team. Please fill out the application below.</p>
+
+    <hr>
+
+    <form action="">
+        <h2>Personal Information</h2>
+
+        <label for="name">Full Name:</label>
+        <br>
+        <input type="text" name="name" id="name">
+        <br></br>
+
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" name="email" id="email">
+        <br></br>
+
+        <label for="phone">Phone:</label>
+        <br>
+        <input type="tel" name="phone" id="phone">
+        <br></br>
+
+        <label for="LinkedinProfileUrl">Linkedin Profile URL:</label>
+        <br>
+        <input type="url" name="LinkedinProfileUrl" id="LinkedinProfileUrl">
+        <br></br>
+
+        <hr>
+
+        <h2>Professional Experience</h2>
+
+        <label for="resume">Upload Your Resume(PDF or DOCX)</label>
+        <br>
+        <input type="file" name="resume" id="resume" accept=".pdf, .docx">
+        <br></br>
+
+        <label for="coverLetter">Cover Letter:</label>
+        <br>
+        <textarea name="coverLetter" id="coverLetter" rows="6" cols="50" placeholder="Write your cover letter here..."></textarea>
+        <br></br>
+
+
+        <label for="yearExperience">Years of Professional Experience:</label>
+        <br>
+        <input type="number" name="yearExperience" id="yearExperience" min="0" max="50">
+        <br></br>
+
+        <label for="startDate">Earliest Possible Start Date:</label>
+        <br>
+        <input type="date" name="startDate" id="startDate">
+        <br></br>
+
+        <hr>
+
+        <h2>Skills & Availability</h2>
+
+        <label for="primarySkill">Primary Skillset (Choose One):</label>
+        <br>
+        
+        <input type="radio" name="primarySkill" id="frontendDevelopment" value="Frontend Development">
+        <label for="frontendDevelopment">Frontend Development</label>
+        <br>
+        <input type="radio" name="primarySkill" id="backendDevelopment" value="Backend Development">
+        <label for="backendDevelopment">Backend Development</label>
+        <br>
+        <input type="radio" name="primarySkill" id="fullStackDevelopment" value="Full-Stack Development">
+        <label for="fullStackDevelopment">Full-Stack Development</label>
+        <br>
+        <br></br>
+        
+
+        <label for="additionalSkills">Additional Skills(Select all that apply):</label>
+        <br>
+        
+        <input type="checkbox" name="interest" id="react" value="React">
+        <label for="react">React</label>
+        <br>
+
+        <input type="checkbox" name="interest" id="nodejs" value="Node.js">
+        <label for="nodejs">Node.js</label>
+        <br>
+        
+        <input type="checkbox" name="interest" id="databaseMgm" value="Database Management">
+        <label for="databaseMgm">Database Management</label>
+        <br>
+
+        <input type="checkbox" name="interest" id="cloudDevOps" value="Cloud/DevOps">
+        <label for="cloudDevOps">Cloud/DevOps</label>
+        <br></br>
+
+        <label for="workType">Preferred Work Type:</label>
+        <br>
+        <select name="workType" id="workType">
+            <option value="Remote">Remote</option>
+            <option value="Hybrid">Hybrid</option>
+            <option value="Work From Office">Work From Office</option>
+        </select>
+
+        <hr>
+
+        <h2>Final Confirmation</h2>
+
+        <input type="checkbox" name="terms" id="terms">
+        <label for="terms" required>I am legally authorized to work in this country</label>
+        <br></br>
+
+        <label for="hearAboutUs">How did you hear about us?</label>
+        <br>
+        <input type="text" name="HearAboutUs" id="hearAboutUs" placeholder="e.g., Linkedin, company">
+        <br></br>
+        
+        
+        <button type="submit">Submit Application</button>
+        <button type="reset">Clear Form</button>
+    </form>
+    
+</body>
+</html>
